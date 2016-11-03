@@ -1,0 +1,16 @@
+body {
+  background-color: #000;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.item {
+
+}

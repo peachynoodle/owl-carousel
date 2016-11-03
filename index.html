@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Night Lights</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>Night Lights</h1>
+
+    <div class="owl-carousel">
+      <div class="item"><img src="img/city_street.jpg"></div>
+      <div class="item"><img src="img/entrance.jpg"></div>
+      <div class="item"><img src="img/interior.jpg"></div>
+      <div class="item"><img src="img/radio_city.jpg"></div>
+      <div class="item"><img src="img/garage.jpg"></div>
+      <div class="item"><img src="img/store.jpg"></div>
+      <div class="item"><img src="img/city_nights.jpg"></div>
+      <div class="item"><img src="img/tokyo.jpg"></div>
+
+    </div>
+
+            <!-- JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+          autoplay: true,
+          autoplayHoverPause: true,
+          autoplayTimeout: 3000,
+          items : 1,
+          loop: true
+
+      })
+     })
+    </script>
+  </body>
+</html>
